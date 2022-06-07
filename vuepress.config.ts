@@ -1,4 +1,5 @@
 const { defaultTheme } = require('vuepress');
+const { searchPlugin } = require('@vuepress/plugin-search');
 
 module.exports = {
   base: '/cheat-sheet/',
@@ -27,4 +28,5 @@ module.exports = {
       },
     ],
   }),
+  plugins: [searchPlugin({})],
 };
