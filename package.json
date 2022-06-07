@@ -1,0 +1,15 @@
+{
+  "name": "cheat-sheet",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "huaweiwei <harvey0379@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run docs:dev",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.46"
+  }
+}
