@@ -1,7 +1,7 @@
-const { defaultTheme } = require('vuepress');
-const { searchPlugin } = require('@vuepress/plugin-search');
+import { defineUserConfig, defaultTheme } from 'vuepress';
+import { searchPlugin } from '@vuepress/plugin-search';
 
-module.exports = {
+export default defineUserConfig({
   base: '/cheat-sheet/',
   lang: 'en-US',
   title: 'Cheat Sheet',
@@ -31,4 +31,4 @@ module.exports = {
     ],
   }),
   plugins: [searchPlugin({})],
-};
+});
