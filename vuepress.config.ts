@@ -19,6 +19,8 @@ module.exports = {
         link: '/guide/',
         children: [
           '/guide',
+          '/book-review',
+          '/fiction',
           {
             text: 'issue',
             link: 'https://github.com/Huauauaa/cheat-sheet/issues',
