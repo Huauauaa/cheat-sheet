@@ -1,11 +1,11 @@
 package golang
 
 import (
-    "fmt"
-    "testing"
+	"fmt"
+	"testing"
 )
 
 func TestGolang(t *testing.T) {
-    fmt.Println(1)
-    fmt.Println(2)
+	fmt.Println(1)
+	fmt.Println(2)
 }
