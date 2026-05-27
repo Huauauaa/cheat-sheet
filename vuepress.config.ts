@@ -20,7 +20,6 @@ export default defineUserConfig({
         children: [
           '/guide',
           '/mod',
-          '/book-review',
           '/fiction',
           {
             text: 'issue',
