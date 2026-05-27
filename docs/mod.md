@@ -1,3 +1,7 @@
+---
+title: 取模（%）行为对比
+---
+
 # 取模（%）行为对比
 
 用同一组表达式 `(10, 3)`、`(10, -3)`、`(-10, 3)`、`(-10, -3)` 对比四种语言的 `%` 结果（见各语言源码）。
@@ -11,7 +15,7 @@
 | `-10 % 3` | -1         | -1  | -1   | **2**  |
 | `-10 % -3`| -1         | -1  | -1   | -1     |
 
-源码：[js/mod-test.js](js/mod-test.js) · [golang/mod_test.go](golang/mod_test.go) · [java/ModTest.java](java/ModTest.java) · [python/mod_test.py](python/mod_test.py)
+源码：[js/mod-test.js](https://github.com/Huauauaa/cheat-sheet/blob/main/js/mod-test.js) · [golang/mod_test.go](https://github.com/Huauauaa/cheat-sheet/blob/main/golang/mod_test.go) · [java/ModTest.java](https://github.com/Huauauaa/cheat-sheet/blob/main/java/ModTest.java) · [python/mod_test.py](https://github.com/Huauauaa/cheat-sheet/blob/main/python/mod_test.py)
 
 ## 规律
 

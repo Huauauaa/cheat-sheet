@@ -19,6 +19,7 @@ export default defineUserConfig({
         link: '/guide/',
         children: [
           '/guide',
+          '/mod',
           '/book-review',
           '/fiction',
           {
