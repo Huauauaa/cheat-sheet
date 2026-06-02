@@ -3,3 +3,4 @@ node_modules
 .cache
 *.class
 docs/.vuepress
+rust_demo/target
